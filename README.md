@@ -227,7 +227,7 @@ root@gibson:/root# find / -name .flag  2>/dev/null
 ```bash
 /home/gcrawford/business.txt
 ```
-- after traversing throught the system with no luck finding the flag i tried surfing the http website, trying exiftool on the pictures and going through the source code i found http://10.10.167.61/backdoor/ and http://10.10.167.61/backdoor/shell/ pretty sus if you ask me. I tried loging in with the ftp and ssh user-pass combos first but it didnt work. The error kept giving me an annoying js alert popup. So i pulled up hydra again.
+- after traversing throught the system with no luck finding the flag i tried surfing the http website, trying exiftool on the pictures and going through the source code and dirbuster. I found http://10.10.167.61/backdoor/ and http://10.10.167.61/backdoor/shell/ pretty sus if you ask me. I tried loging in with the ftp and ssh user-pass combos first but it didnt work. The error kept giving me an annoying js alert popup. So i pulled up hydra again.
 
 ```bash
 ┌──(root㉿kali)-[~]
